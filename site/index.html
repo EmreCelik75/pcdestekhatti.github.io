@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgisayar Destek</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            background: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Bilgisayar Destek Platformu
+    </header>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="hizmetler.html">Hizmetler</a>
+        <a href="hakkimizda.html">Hakkımızda</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Hoş Geldiniz</h2>
+        <p>Bilgisayar sorunlarınıza çözüm bulmak için buradayız. Uzman ekibimizle size yardımcı olmaktan mutluluk duyarız.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Hizmetlerimiz</h2>
+        <ul>
+            <li>Donanım ve yazılım sorunları</li>
+            <li>Virüs ve güvenlik çözümleri</li>
+            <li>İnternet ve ağ problemleri</li>
+            <li>Uzaktan destek ve danışmanlık</li>
+        </ul>
+    </div>
+    <div class="container" id="special-services">
+        <h2>Özel Hizmetlerimiz</h2>
+        <ul>
+            <li>Veri kurtarma ve yedekleme</li>
+            <li>Sistem optimizasyonu ve hızlandırma</li>
+            <li>Özel yazılım çözümleri</li>
+            <li>Donanım yükseltme danışmanlığı</li>
+        </ul>
+        <a href="#contact" class="button">Teklif Alın</a>
+    </div>
+    <div class="container" id="about">
+        <h2>Hakkımızda</h2>
+        <p>Bilgisayar Destek Platformu olarak, müşterilerimize en iyi teknik çözümleri sunmayı hedefliyoruz. Alanında uzman ekibimizle sizlere en kaliteli hizmeti sağlıyoruz.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>İletişim</h2>
+        <p>Bize ulaşmak için aşağıdaki e-posta adresine mesaj gönderebilirsiniz:</p>
+        <a href="mailto:celikemreq@outlook.com" class="button">E-posta Gönder</a>
+    </div>
+    <footer>
+        &copy; 2025 Bilgisayar Destek. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
